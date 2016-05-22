@@ -79,7 +79,7 @@ class db{
 		}
 	}
 	// Login function will check the user credetional in the table and then send the response according to the status
-	final function login($u_email, $u_mobile, $u_password){
+	final functionend login]...*/($u_email, $u_mobile, $u_password){
 		$error = 0;
 		$response = array();
 		$u_email 	= (!empty($u_email)) ? $u_email : 'empty';
@@ -133,7 +133,7 @@ class db{
 			'responseArray' => $response,
 		);
 		echo json_encode($output, JSON_PRETTY_PRINT);
-	}
+	}/*...end[login]...*/
 	
 	public function delete_user($userID){
 		// here you'll write delete user code
