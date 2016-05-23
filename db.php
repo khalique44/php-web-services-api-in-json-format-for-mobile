@@ -11,6 +11,8 @@ class db{
 	// Connection variable is using inside the class methods
 	private $connection;
 	// Connection Between db class and database
+	define('site_title', 'Example CMS');
+	define('base_url', 'http://example.com/demo/Webservice/');
 	public function __construct () {
 		$host = 'localhost';
 		$username = 'root';
