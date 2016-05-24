@@ -13,6 +13,7 @@ class db{
 	// Connection Between db class and database
 	define('site_title', 'Example CMS');
 	define('base_url', 'http://example.com/demo/Webservice/');
+	define('image_url', 'http://example.com/demo/Webservice/upload/userImages');
 	public function __construct () {
 		$host = 'localhost';
 		$username = 'root';
