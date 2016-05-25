@@ -146,6 +146,9 @@ class db{
 	// here is my function with github connectivity
 	}
 	
+	public function ata_function($userID){
+	// here is my second function with github connectivity
+	}
 }
 
 
