@@ -141,6 +141,11 @@ class db{
 	public function delete_user($userID){
 		// here you'll write delete user code
 	}
+	
+	public function khl_function($userID){
+	// here is my function with github connectivity
+	}
+	
 }
 
 
